@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.card {
+    display: flex;
+}
+
+.visual {
+border-top-left-radius: 5%;
+border-bottom-left-radius: 5%;
+max-width: 350px;
+max-height: auto;
+}
+ul {
+    list-style: none;
+}
+
+.description {
+    background-color: white;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    max-width: 350px;
+    text-align: left;
+    display: grid;
+    align-content: space-evenly;
+    justify-items: center;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: 400;
+}
